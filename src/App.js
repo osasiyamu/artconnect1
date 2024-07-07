@@ -14,7 +14,7 @@ import Artist from './Artist';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/artconnect1'>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/discover" component={Discover} />
