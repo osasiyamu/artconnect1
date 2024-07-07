@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 import './PageStyles.css';
 
@@ -12,22 +13,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">Home</a>
+              <Link className="nav-link" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Discover">Discover</a>
+              <Link className="nav-link" to="/discover">Discover</Link> {/* Ensure path casing matches your routes */}
             </li>
           </ul>
-          <a className="navbar-brand mx-auto websiteName" href="/">ArtConnect</a>
+          <Link className="navbar-brand mx-auto websiteName" to="/">ArtConnect</Link>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/Community">Community</a>
+              <Link className="nav-link" to="/community">Community</Link> {/* Ensure path casing matches your routes */}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Shop">Shop</a>
+              <Link className="nav-link" to="/shop">Shop</Link> {/* Ensure path casing matches your routes */}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Profile"><i class="bi bi-person-fill"></i></a>
+              <Link className="nav-link" to="/profile"><i className="bi bi-person-fill"></i></Link> {/* Ensure path casing matches your routes */}
             </li>
           </ul>
         </div>
