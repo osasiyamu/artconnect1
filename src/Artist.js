@@ -2,7 +2,7 @@ import logo from './images/artist.webp';
 const Artist = () => {
     return (
         <div>
-            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/discover'>Discover</a> / <a href='/art'>ContemporaryArt</a> / <a href='/artist'>Artist Name</a></p>
+            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/artconnect1/discover'>Discover</a> / <a href='/artconnect1/art'>ContemporaryArt</a> / <a href='/artconnect1/artist'>Artist Name</a></p>
             <div className="d-flex ">
                 <div className="artistProfile" style={{ backgroundColor: 'lightGrey' }}>
                     <div className="artistPicture">

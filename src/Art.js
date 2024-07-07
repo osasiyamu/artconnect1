@@ -2,7 +2,7 @@ import ArtDisplay from './images/ArtDisplay.webp'
 const Art = () => {
     return (
         <div>
-            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/discover'>Discover</a> / <a href='/art'>ContemporaryArt</a></p>
+            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/artconnect1/discover'>Discover</a> / <a href='/artconnect1/art'>ContemporaryArt</a></p>
             <div className="d-flex ">
                 <div className="specificArt">
                     <img src={ArtDisplay} alt=''></img>
