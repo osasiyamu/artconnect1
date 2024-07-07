@@ -15,19 +15,19 @@ const Navbar = () => {
               <a className="nav-link" aria-current="page" href="/artconnect1/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/discover">Discover</a>
+              <a className="nav-link" href="/artconnect1/discover">Discover</a>
             </li>
           </ul>
-          <a className="navbar-brand mx-auto websiteName" href="/">ArtConnect</a>
+          <a className="navbar-brand mx-auto websiteName" href="/artconnect1/">ArtConnect</a>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/community">Community</a>
+              <a className="nav-link" href="/artconnect1/community">Community</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/shop">Shop</a>
+              <a className="nav-link" href="/artconnect1/shop">Shop</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/profile"><i class="bi bi-person-fill"></i></a>
+              <a className="nav-link" href="/artconnect1/profile"><i class="bi bi-person-fill"></i></a>
             </li>
           </ul>
         </div>
