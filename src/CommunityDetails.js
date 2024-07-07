@@ -3,7 +3,7 @@ import SamplePost from './components/SamplePost';
 const CommunityDetails = () => {
     return (
         <div>
-            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/community'>Community</a> / <a href='/communityDetails'>Commununity Details</a></p>
+            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/artconnect1/community'>Community</a> / <a href='/artconnect1/communityDetails'>Commununity Details</a></p>
             <div className="">
                 <div className="communityDetails" style={{ width: '90%', height: '400px', color: 'black', marginLeft: '3rem', marginRight: '3rem' }}>
                     <img src={CommunityDetail} alt='' style={{ width: '100%', height: '100%' }}></img>
