@@ -6,7 +6,7 @@ const Art = () => {
             <div className="d-flex ">
                 <div className="specificArt">
                     <img src={ArtDisplay} alt=''></img>
-                    <p className="text-center align-items-end" style={{color: 'black'}}>Signed By: <a href="./artist" style={{textDecoration: 'underline'}}>Artist</a></p>
+                    <p className="text-center align-items-end" style={{color: 'black'}}>Signed By: <a href="./artconnect1/artist" style={{textDecoration: 'underline'}}>Artist</a></p>
                 </div>
 
                 <div className="details">
