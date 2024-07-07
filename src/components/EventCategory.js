@@ -17,14 +17,14 @@ const EventCategory = (props) => {
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={contemporaryArt1} alt="" />
-                                        <div className="align-items-center"><a href="/eventDetails"> {props.category} Details</a></div>
+                                        <div className="align-items-center"><a href="/artconnect1/eventDetails"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={contemporaryArt2} alt="" />
-                                        <div className="align-items-center"><a href="/art"> {props.category} Details</a></div>
+                                        <div className="align-items-center"><a href="/artconnect1/art"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
@@ -32,21 +32,21 @@ const EventCategory = (props) => {
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={contemporaryArt3} alt="" />
-                                        <div className="align-items-center"><a href="/art"> {props.category} Details</a></div>
+                                        <div className="align-items-center"><a href="/artconnect1/art"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={contemporaryArt4} alt="" />
-                                        <div className="align-items-center"><a href="/art"> {props.category} Details</a></div>
+                                        <div className="align-items-center"><a href="/artconnect1/art"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={contemporaryArt5} alt="" />
-                                        <div className="align-items-center"><a href="/art"> {props.category} Art Details</a></div>
+                                        <div className="align-items-center"><a href="/artconnect1/art"> {props.category} Art Details</a></div>
                                     </div>
                                 </div>
                             </div>

@@ -3,7 +3,7 @@ import SampleEventDetails from './components/SampleEventDetails';
 const EventDetails = () => {
     return (
         <div>
-            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/discover'>Discover</a> / <a href='/eventDetails'>Event Details</a></p>
+            <p style={{ marginLeft: '3rem', marginTop: '80px', color: 'black' }}><a href='/artconnect1/discover'>Discover</a> / <a href='/artconnect1/eventDetails'>Event Details</a></p>
             <div className="">
                 <div className="communityDetails" style={{ width: '90%', height: '400px', color: 'black', marginLeft: '3rem', marginRight: '3rem' }}>
                     <img src={EventDetail} alt='' style={{ width: '100%', height: '100%' }}></img>

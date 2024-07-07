@@ -16,14 +16,14 @@ const CommunityCategory = (props) => {
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={artEvent1} alt="" />
-                                        <div className="text-center align-items-center"><a href="/communityDetails"> {props.category} Details</a></div>
+                                        <div className="text-center align-items-center"><a href="/artconnect1/communityDetails"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={artEvent2} alt="" />
-                                        <div className="text-center align-items-center"><a href="/communityDetails"> {props.category} Details</a></div>
+                                        <div className="text-center align-items-center"><a href="/artconnect1/communityDetails"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
@@ -31,21 +31,21 @@ const CommunityCategory = (props) => {
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={artEvent3} alt="" />
-                                        <div className="text-center align-items-center"><a href="/communityDetails"> {props.category} Details</a></div>
+                                        <div className="text-center align-items-center"><a href="/artconnect1/communityDetails"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={artEvent4} alt="" />
-                                        <div className="text-center align-items-center"><a href="/communityDetails"> {props.category} Details</a></div>
+                                        <div className="text-center align-items-center"><a href="/artconnect1/communityDetails"> {props.category} Details</a></div>
                                     </div>
                                 </div>
 
                                 <div className="" style={{ width: '18rem', marginRight: '2rem' }}>
                                     <div className="art">
                                         <img src={artEvent5} alt="" />
-                                        <div className="text-center align-items-center"><a href="/communityDetails"> {props.category} Art Details</a></div>
+                                        <div className="text-center align-items-center"><a href="/artconnect1/communityDetails"> {props.category} Art Details</a></div>
                                     </div>
                                 </div>
                             </div>
