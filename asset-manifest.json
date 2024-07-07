@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/artconnect1/static/css/main.308f6f84.css",
-    "main.js": "/artconnect1/static/js/main.716bc0e6.js",
+    "main.js": "/artconnect1/static/js/main.73c4653e.js",
     "static/js/453.b0991327.chunk.js": "/artconnect1/static/js/453.b0991327.chunk.js",
     "static/media/trendingArt1.png": "/artconnect1/static/media/trendingArt1.c9333392179b361db432.png",
     "static/media/contemporaryArt3.png": "/artconnect1/static/media/contemporaryArt3.d1c0f0a9f9fc970cda36.png",
@@ -28,11 +28,11 @@
     "static/media/User.webp": "/artconnect1/static/media/User.3474fd4513108bbb39e8.webp",
     "index.html": "/artconnect1/index.html",
     "main.308f6f84.css.map": "/artconnect1/static/css/main.308f6f84.css.map",
-    "main.716bc0e6.js.map": "/artconnect1/static/js/main.716bc0e6.js.map",
+    "main.73c4653e.js.map": "/artconnect1/static/js/main.73c4653e.js.map",
     "453.b0991327.chunk.js.map": "/artconnect1/static/js/453.b0991327.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.308f6f84.css",
-    "static/js/main.716bc0e6.js"
+    "static/js/main.73c4653e.js"
   ]
 }
