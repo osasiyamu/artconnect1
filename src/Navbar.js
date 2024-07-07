@@ -12,22 +12,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">Home</a>
+              <a className="nav-link" aria-current="page" href="/artconnect1/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Discover">Discover</a>
+              <a className="nav-link" href="/artconnect1/Discover">Discover</a>
             </li>
           </ul>
-          <a className="navbar-brand mx-auto websiteName" href="/">ArtConnect</a>
+          <a className="navbar-brand mx-auto websiteName" href="/artconnect1/">ArtConnect</a>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/Community">Community</a>
+              <a className="nav-link" href="/artconnect1/Community">Community</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Shop">Shop</a>
+              <a className="nav-link" href="/artconnect1/Shop">Shop</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Profile"><i class="bi bi-person-fill"></i></a>
+              <a className="nav-link" href="/artconnect1/Profile"><i class="bi bi-person-fill"></i></a>
             </li>
           </ul>
         </div>

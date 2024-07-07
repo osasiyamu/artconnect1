@@ -16,16 +16,16 @@ function App() {
   return (
     <Router basename='/artconnect1'>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/discover" component={Discover} />
-        <Route path="/eventDetails" component={EventDetails} />
-        <Route exact path="/community" component={Community} />
+        <Route exact path="/artconnect1/" component={Home} />
+        <Route path="/artconnect1/discover" component={Discover} />
+        <Route path="/artconnect1/eventDetails" component={EventDetails} />
+        <Route exact path="/artconnect1/community" component={Community} />
         <Route exact path="/communityDetails" component={CommunityDetails} />
-        <Route exact path="/shop" component={Shop} />
-        <Route exact path="/shopItemDetails" component={ShopItemDetails} />
-        <Route path="/art" component={Art} />
-        <Route path="/artist" component={Artist} />
-        <Route path="/profile" component={Profile} />
+        <Route exact path="/artconnect1/shop" component={Shop} />
+        <Route exact path="/artconnect1/shopItemDetails" component={ShopItemDetails} />
+        <Route path="/artconnect1/art" component={Art} />
+        <Route path="/artconnect1/artist" component={Artist} />
+        <Route path="/artconnect1/profile" component={Profile} />
       </Switch>
     </Router>
   );
